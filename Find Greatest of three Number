@@ -1,0 +1,42 @@
+//To find greatest of three Number
+
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    int firstnum, secondnum, thirdnum;
+
+    printf("enter the first Numbers:\n");
+    scanf("%d", &firstnum);
+
+    printf("enter the second Numbers:\n");
+    scanf("%d", &secondnum);
+
+    printf("enter the third Numbers:\n");
+    scanf("%d", &thirdnum);
+
+    if (firstnum >= thirdnum && firstnum >= secondnum){
+        printf("")
+
+    }
+    
+    else if (secondnum >= firstnum && secondnum >= thirdnum)
+    {
+        printf("secondnum is greater,%d", secondnum);
+    }
+    else if (firstnum==secondnum&&thirdnum==secondnum)
+    {
+        printf("All Numbers are equal,%d",firstnum||secondnum||thirdnum);
+    }
+    else
+    {
+        printf("thirdnum is greater,%d", thirdnum);
+    }
+
+
+    return 0;
+}
